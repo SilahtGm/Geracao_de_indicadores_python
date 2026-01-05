@@ -31,9 +31,9 @@ O sistema está dividido em quatro módulos principais:
 ## 💡 Aprendizados Técnicos
 
 Durante o desenvolvimento deste projeto, foram aplicados conceitos fundamentais de análise de dados:
-- **Higiene de Dados:** Filtragem de `outliers` e remoção de valores que causariam erros matemáticos (como divisão por zero).
+- **Higiene de Dados:** remoção de valores que causariam erros matemáticos (como divisão por zero).
 - **Feature Engineering:** Criação de novas métricas (como o Valor do m²) a partir das colunas existentes.
 - **Segurança de Execução:** Implementação de `PermissionError` para evitar travamentos caso o usuário tente salvar um arquivo que já está aberto.
 
 ---
-*Este projeto faz parte do meu portfólio de estudos em Ciência de Dados e Engenharia de Dados.*
+*Este projeto faz parte do meu portfólio de estudos em Ciência de Dados*
