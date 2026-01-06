@@ -91,7 +91,6 @@ def imoveis_por_tipo(dados):
 
 def salvar_arquivo(dataframe, nome):
     try:
-        # O encoding 'utf-8-sig' faz o arquivo abrir direitinho no Excel brasileiro
         dataframe.to_csv(f"{nome}.csv", sep=';', index=True, encoding='utf-8-sig')
         print(f"\n✅ Arquivo '{nome}.csv' gerado com sucesso!")
     except PermissionError:
